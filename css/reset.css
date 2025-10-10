@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+li{
+    list-style: none;
+}
+body{
+    font:14px/1.5"Microsoft Yahei","Hiragino Sans GB","Heiti sc","WenQuanYi Micro Hei",sans-serif;
+    color:#333;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* 重置文本框 */
+input{
+    border: none;
+    outline: none;
+    outline-offset: 0;
+}
+/* 重置按钮 */
+button{
+    border: none;
+    outline: none;
+    outline: navy;
+    background-color: transparent;
+    padding: 0;
+}
