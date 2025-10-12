@@ -24,6 +24,7 @@ a:active {
 
 ul {
   word-break: break-all;
+  line-height: 2;
 }
 
 /* 同一样式结束 */
@@ -67,7 +68,7 @@ background: red; */
 .aside-right {
   float: right;
   width: 265px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .main {
@@ -132,6 +133,42 @@ background: red; */
 .item-list li .img img {
   width: 100%;
   display: block;
+}
+
+.left-meun {
+  font-size: 14px;
+}
+
+.left-meun a.new {
+  position: relative;
+}
+
+.left-meun a.new::after {
+  content: "";
+
+  background: url("../img/new_menu.gif") no-repeat;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.right-menu-list {
+  font-size: 12px;
+}
+
+.right-menu-list li {
+  float: left;
+}
+
+.block-link {
+  padding: 2px 10px;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 /* 首页通用样式结束 */
@@ -420,6 +457,72 @@ background: red; */
   color: #fff;
   text-align: center;
   line-height: 144px;
-  font-size: 30px;
+  font-size: 35px;
 }
 /* 豆瓣视频结束 */
+
+/* 豆瓣电影开始 */
+
+.movie-area .right-menu-list li {
+  width: 48px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.oorder-movie-list {
+  font-size: 12px;
+}
+.oorder-movie-list li {
+  list-style-type: decimal;
+  list-style-position: inside;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 6px;
+}
+
+.oorder-movie-list li a {
+  margin-left: 5px;
+}
+
+.movie-area .item-list li {
+  width: 100px;
+  margin-right: 38px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.movie-area .item-list li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.movie-area .item-list li .words {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.movie-area .item-list li .words a {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 超出部分隐藏 */
+  text-overflow: ellipsis; /* 超出部分用省略号表示 */
+}
+
+.movie-area .star .number {
+  font-size: 12px;
+  margin-left: 6px;
+  color: #e09015;
+}
+.movie-area .func {
+  margin-top: 7px;
+}
+
+.movie-area .func .block-link {
+  background: #1c8bd0;
+  color: #fff;
+}
+
+.movie-area .func .block-link:hover {
+  background: #047fcb;
+}
+
+/* 豆瓣电影结束 */
