@@ -1,4 +1,4 @@
-@import "//at.alicdn.com/t/c/font_5027732_5sviipv6dqb.css";
+@import "//at.alicdn.com/t/c/font_5027732_5smyaaawzq.css";
 /* 多页面共享 */
 body {
   font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei",
@@ -73,4 +73,10 @@ body {
 }
 .star00 {
   background-position: 0 -110px;
+}
+
+.star .number {
+  font-size: 12px;
+  margin-left: 6px;
+  color: #e09015;
 }
